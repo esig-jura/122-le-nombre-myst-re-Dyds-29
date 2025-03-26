@@ -7,6 +7,12 @@
 
 'use strict';
 
+const nbMystere = null;
+const nbEssais = 0;
+const reponse = null;
+const message = 'Le nombre à deviner est compris entre 1 et 100';
+
+
 /**
  * Retourne un nombre entier aléatoire compris entre min et max
  * @param {number} min
@@ -16,5 +22,7 @@
 function tireNombre(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 }
+
+
 
 alert(tireNombre(50,150));
