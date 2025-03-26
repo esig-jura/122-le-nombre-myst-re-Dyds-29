@@ -7,10 +7,13 @@
 
 'use strict';
 
-const nbMystere = null;
-const nbEssais = 0;
-const reponse = null;
-const message = 'Le nombre à deviner est compris entre 1 et 100';
+let nbMystere = null;
+let nbEssais = 0;
+let reponse = null;
+let message = 'Le nombre à deviner est compris entre 1 et 100';
+
+
+nbMystere = tireNombre;
 
 
 /**
@@ -25,4 +28,4 @@ function tireNombre(min, max) {
 
 
 
-alert(tireNombre(50,150));
+prompt(message);
