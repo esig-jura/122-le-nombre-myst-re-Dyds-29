@@ -1,8 +1,8 @@
 /**
  * Jeu du nombre mystère
- * @author  Steve Fallet
+ * @author  Dylan Teixeira Batista
  * @version 2.0
- * @since   2018-09-09 (date de création)
+ * @since   2025-26-03 (date de création)
  */
 
 'use strict';
