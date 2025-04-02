@@ -28,7 +28,7 @@ let reponse = null;
 
 do
 {
-    reponse = Number(prompt(message));
+    reponse = parseInt(prompt(message));
     nbEssais ++;
 
     if (reponse > nbMystere)
