@@ -33,11 +33,11 @@ do
 
     if (reponse > nbMystere)
     {
-        message = 'Trop grand';
+        message = 'C\' trop grand';
     }
     if (reponse < nbMystere)
     {
-        message = 'Trop petit';
+        message = 'C\'est trop petit';
     }
 
 }while (nbMystere !== reponse);
